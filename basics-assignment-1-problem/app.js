@@ -1,8 +1,8 @@
-const vue = Vue.createApp({
+const app = Vue.createApp({
   data() {
     return {
       name: "Niklas",
-      age: "21",
+      age: 21,
       favoriteNumer: "7",
       imgUrl: "https://avatars.githubusercontent.com/u/81755541?v=4",
     };
