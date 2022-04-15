@@ -20,9 +20,10 @@ const app = Vue.createApp({
     },
   },
   watch: {
-    number(value) {
+    result() {
+      const that = this;
       setTimeout(() => {
-        this.number = 0;
+        that.number = 0;
       }, 5000);
     },
   },
