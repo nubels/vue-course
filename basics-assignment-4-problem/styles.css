@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 body {
@@ -79,6 +79,11 @@ p {
 
 .user2 {
   background-color: purple;
+  color: white;
+}
+
+.user3 {
+  background-color: red;
   color: white;
 }
 
